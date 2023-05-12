@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    background-color: #0d2434;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.header .navbar {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2.2rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: #4cb2ff;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar a.active {
+    color: #4cb2ff;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 9%;
+}
+.home-content {
+    max-width: 55rem;
+}
+
+.home-content h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.home-content .text-animate {
+    position: relative;
+    width: 32.8rem;
+}
+.home-content .text-animate h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px #4cb2ff;
+}
+.home-content p {
+    font-size: 1.3rem;
+}
+
+.button-box a {
+    display: inline-block;
+    margin-right: 10rem;
+    padding: 1.5rem 5rem;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
