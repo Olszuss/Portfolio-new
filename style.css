@@ -66,6 +66,11 @@ section {
 }
 
 .home {
+    background-image: url(/background.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position:right;
     display: flex;
     align-items: center;
     color: white;
@@ -176,4 +181,23 @@ section {
     border-radius: 50%;
     color: #4cb2ff;
     font-size: 2rem;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-icons a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4cb2ff;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-icons a:hover::before {
+    width: 100%;
 }
