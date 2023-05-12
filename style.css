@@ -155,3 +155,25 @@ section {
     color: #0d2434;
     transition: .5s;
 }
+
+.home-icons {
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-icons a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: .2rem solid #4cb2ff;
+    border-radius: 50%;
+    color: #4cb2ff;
+    font-size: 2rem;
+}
