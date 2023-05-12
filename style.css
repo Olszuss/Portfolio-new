@@ -92,6 +92,7 @@ section {
 }
 .home-content p {
     margin-top: 2rem;
+    margin-bottom: 2.5rem;
     font-size: 1.3rem;
 }
 
@@ -125,13 +126,32 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background: red;
+    background: #0d2434;
     z-index: -1;
     transition: .5s;
 }
 
 .button-box .button:hover::before {
     width: 100%;
+}
+
+.button-box .button:hover {
+    color:#4cb2ff;
+    transition: .5s;
+}
+
+.button-box .button:nth-child(2){
+    background: #0d2434;
+    color: #4cb2ff;
+}
+
+.button-box .button:nth-child(2):hover::before {
+    background-color: #4cb2ff;
+}
+
+.button-box .button:nth-child(2):hover {
+    color: #0d2434;
+    transition: .5s;
 }
