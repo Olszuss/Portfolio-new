@@ -28,6 +28,9 @@ html {
     z-index: 50;
 }
 
+.logo-icon {
+    width: 80px;
+}
 .header .logo {
     font-size: 2rem;
     color: white;
